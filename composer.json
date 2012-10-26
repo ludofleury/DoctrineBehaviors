@@ -1,0 +1,28 @@
+{
+    "name": "ludofleury/doctrine-behaviors",
+    "type": "library",
+    "description": "Doctrine2 MongoDB ODM behavior traits",
+    "keywords": [
+        "behaviors",
+        "doctrine2",
+        "timestampable"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name":  "Ludovic Fleury",
+            "email": "ludo.fleury@gmail.com"
+        }
+    ],
+    "require": {
+        "php":              ">=5.4.0",
+        "doctrine/common":  ">=2.2"
+    },
+    "require-dev": {
+        "doctrine/mongodb-odm":  "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "Ludo\\DoctrineBehaviors": "src/" }
+    },
+    "minimum-stability": "dev"
+}

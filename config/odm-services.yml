@@ -1,0 +1,9 @@
+parameters:
+    ludo.doctrine_behaviors.timestampable_listener.class: Ludo\DoctrineBehaviors\ODM\Timestampable\TimestampableListener
+
+services:
+    ludo.doctrine_behaviors.timestampable_listener:
+        class:   "%ludo.doctrine_behaviors.timestampable_listener.class%"
+        public:  false
+        tags:
+            - { name: doctrine_mongodb.odm.event_subscriber }
